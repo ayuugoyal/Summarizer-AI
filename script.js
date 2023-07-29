@@ -7,8 +7,6 @@ const chatContainer = document.querySelector("#chat_container");
 
 let loadInterval;
 
-const baseUrl = "https://summarize-texts.p.rapidapi.com/pipeline";
-
 function loader(element) {
   element.textContent = "";
   loadInterval = setInterval(() => {
